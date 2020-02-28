@@ -120,7 +120,7 @@ function supetokenResponse(code) {
 
 }
 
-function cameraResponse(code) {
+function getBarcodeResponse(code) {
     var obj = JSON.parse(code);
     let label = document.getElementById("tokenLabel")
     label.innerHTML = ("camara = " + obj.params.code)
